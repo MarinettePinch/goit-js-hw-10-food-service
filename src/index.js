@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', onLoad);
 function onCheckboxChange() {
     if (refs.checkbox.checked) {
         localStorage.setItem('theme', Theme.DARK);
-        setDarckTheme();
+        setDarkTheme();
     } else {
         localStorage.setItem('theme', Theme.LIGHT);
         setLightTheme();
@@ -40,10 +40,10 @@ function onLoad() {
     const theme = localStorage.getItem('theme');
     if (theme === Theme.LIGHT) return;
     refs.checkbox.checked = true;
-    setDarckTheme();
+    setDarkTheme();
     }
 
-function setDarckTheme() {
+function setDarkTheme() {
         refs.body.classList.add(Theme.DARK);
         refs.body.classList.remove(Theme.LIGHT);
 }
