@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /goit-js-hw-10-food-service/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinettePinch/goit-js-hw-10-food-service.git"
+  },
+  "author": "MARINA_PINCHUK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinettePinch/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://MarinettePinch/github.io/goit-js-hw-10-food-service",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "npm": "^7.19.0",
+    "save": "^2.4.0"
+  }
+}
